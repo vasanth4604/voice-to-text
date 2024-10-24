@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Welcome to Text to Speech Converter</h1>
+
+    <h2> Here you can speak any text that can be shown in below box. </h2>
+
+    <button class="button-three" id="btn" onclick="recognition.start()">
+        Speech To text
+    </button>
+
+    <div id="result" class="container">
+        <p>Text is shown here</p>
+    </div>
+
+    <button class="button-three" onclick="copyDivToClipboard()">
+        Copy the text
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
